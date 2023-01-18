@@ -2,7 +2,10 @@ import React from "react";
 import GlobalStyles from "../../Styles/GlobalStyles";
 import Navbar from '../../Components/Navbar'
 import Carousel from "../../Components/Carousel";
-import Footer from '../../Components/Footer'
+import Footer from '../../Components/Footer';
+import CardDeck from "../../Components/CardDeck";
+
+
 
 import { 
     Container,
@@ -35,7 +38,12 @@ const Home: React.FC = () => {
                         >
                             Leia mais sobre crédito de Carbono
                         </a>
-                        
+                        <br></br>
+                            
+                   <div>
+                    <CardDeck/>
+                   </div>     
+                     
                 </Content>
                 <Footer/>
             </Container>

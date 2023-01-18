@@ -18,3 +18,7 @@ export const Content = styled.div`
 `;
 
 export const Carousel = styled.div``;
+
+export const CardDeck = styled.div`
+    display: flex;
+`;
