@@ -12,4 +12,10 @@ export const Content = styled.div`
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+
+    > h2 {
+        color: #b8ffc3;
+        font-size: 1500%;
+        cursor: pointer;
+    }
 `;

@@ -14,17 +14,13 @@ const Home: React.FC = () => {
     return (
         <>
         <Navbar/>
-
             <Container>
-            
-
                 <Content>
                     <GlobalStyles/>
-                    
-
-                    <Carousel/>
-                        <h1>Reversa</h1>
-                        
+                    <br></br>
+                    <br></br>
+                    <h2> △ </h2>                    
+                        <h1>Reversa</h1>                        
                         <div>
                             Reversa Gestão Ambiental
                         </div>
@@ -34,13 +30,13 @@ const Home: React.FC = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Leia mais sobre crédito de Carbono
+                            Leia mais sobre Crédito de Carbono
                         </a>
-                        <br></br>
-                            
+                        <br></br>                            
                    <div>
                     <CardDeck/>
                    </div>     
+                   <Carousel/>
                      
                 </Content>
                 <Footer/>
