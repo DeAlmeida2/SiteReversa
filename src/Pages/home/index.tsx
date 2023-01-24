@@ -5,13 +5,10 @@ import Carousel from "../../Components/Carousel";
 import Footer from '../../Components/Footer';
 import CardDeck from "../../Components/CardDeck";
 
-
-
-import { 
-    Container,
+import { Container,
     Content,
-   } from "./styles";
-
+ } from './styles'
+    
 
 const Home: React.FC = () => {
     return (
@@ -23,6 +20,7 @@ const Home: React.FC = () => {
 
                 <Content>
                     <GlobalStyles/>
+                    
 
                     <Carousel/>
                         <h1>Reversa</h1>

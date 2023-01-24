@@ -1,5 +1,4 @@
 import React from "react";
-
 //import { Container } from './styles';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,17 +9,18 @@ function ColorSchemesExample() {
   return (
     <>
     
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Reversa</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#sobre">Sobre</Nav.Link>
-            <Nav.Link href="#servicos">Serviços</Nav.Link>
-            <Nav.Link href="#contato">Contato</Nav.Link>
-            <Nav.Link href="#login">Login</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>     
+      <Navbar bg="dark" variant="dark" className="fixed-top" >
+      
+        <Container>        
+          <Navbar.Brand href="/Home">△ Reversa</Navbar.Brand>
+          <Nav className="right">
+            <Nav.Link href="/Sobre">Sobre</Nav.Link>
+            <Nav.Link href="/Servicos">Serviços</Nav.Link>
+            <Nav.Link href="/Contato">Contato</Nav.Link>
+            <Nav.Link href="/Login">Login</Nav.Link>
+          </Nav>       
+        </Container>        
+      </Navbar>  
     </>
   );
 }

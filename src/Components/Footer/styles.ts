@@ -8,5 +8,8 @@ export const Container = styled.div`
    align-items: center;
    padding-left: 450px;
     
-   
+   > div {
+    align-items: right;
+    border-left: 1000px;
+   }
 `;

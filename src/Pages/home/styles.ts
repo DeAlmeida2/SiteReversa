@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    
-   
-`;
+export const Container = styled.div``;
 
 export const Content = styled.div`
-     background-color: #282c34;
+    background-color: #282c34;
     text-align: center;
     min-height: 100vh;
     display: flex;
@@ -15,10 +12,4 @@ export const Content = styled.div`
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-`;
-
-export const Carousel = styled.div``;
-
-export const CardDeck = styled.div`
-    display: flex;
 `;
