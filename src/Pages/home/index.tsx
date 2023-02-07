@@ -19,7 +19,7 @@ const Home: React.FC = () => {
                     <GlobalStyles/>
                     <br></br>
                     <br></br>
-                    <h2 className="App-logo"> △ </h2>                    
+                    <h2 > △ </h2>                   
                         <h1>Reversa</h1>                        
                         <div>
                             Reversa Gestão Ambiental
@@ -47,3 +47,5 @@ const Home: React.FC = () => {
 }
 
 export default Home;
+
+/*Adicionar no h2 className="App-logo" */

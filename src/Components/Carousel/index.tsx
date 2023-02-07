@@ -14,8 +14,8 @@ function UncontrolledExample() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Primeira Imagem</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Preservação</h3>
+            <p>Aumento da diversidade da oferta de energia, diminuição de emissões atmosféricas de poluentes e diminuição do desmatamento são algumas vantagens da energia renovável.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={8000}>
@@ -26,8 +26,8 @@ function UncontrolledExample() {
           />
 
           <Carousel.Caption>
-            <h3>Segunda Imagem</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Meio Ambiente</h3>
+            <p>Estamos focados em projetos de pesquisa especializada em energia renovável, mapeamento de resíduos e projetos ecológicos.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={8000}>
@@ -38,9 +38,9 @@ function UncontrolledExample() {
           />
 
           <Carousel.Caption>
-            <h3>Terceira Imagem</h3>
+            <h3>Plantando um Futuro Melhor</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+             Platando soluções sustentáveis para um futuro melhor.
             </p>
           </Carousel.Caption>
         </Carousel.Item>        

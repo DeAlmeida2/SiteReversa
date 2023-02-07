@@ -1,11 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export default createGlobalStyle`
     body {
     
     .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
