@@ -1,10 +1,42 @@
 import React from "react";
+import GlobalStyles from "../../Styles/GlobalStyles";
+import Input from "../../Components/Input";
 
-const login: React.FC = () => {
+
+import { Container,
+    Content,
+    Form,
+    FormTitle,
+ } from './styles'
+    
+
+const Home: React.FC = () => {
     return (
-        <h1>login</h1>
+        <>
+            <Container>
+                    <Content>
+                        <GlobalStyles/>
+                        <h2 > △ Reversa </h2>                                             
+                            <Form>
+                            <FormTitle>Entrar</FormTitle>
+                                <Input
+                                    type="email"
+                                    placeholder="e-mail"
+                                    required />
+                                <Input
+                                    type="password"
+                                    placeholder="senha"
+                                    required/>
+
+                                <button type="submit">Acessar</button>
+                            </Form>                       
+                    </Content>               
+            </Container>
+        </>
     );
 
 }
 
-export default login;
+export default Home;
+
+/*Adicionar no h2 className="App-logo" */

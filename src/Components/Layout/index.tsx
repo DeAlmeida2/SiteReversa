@@ -4,19 +4,20 @@ import { Container } from './styles'
 
 import Navbar from "../Navbar";
 import Content from "../Content";
-import Footer from "../Footer";
+//import Footer from "../Footer";
 
 type Props = {
     children?: React.ReactNode
 };
 
 
-const Layout: React.FC<Props> = () => {
+const Layout: React.FC<Props> = ( {children} ) => {
     return (
         <Container>
             <Navbar />
             <Content />
-            <Footer />
+            {children}
+            
         </Container>
         
     );

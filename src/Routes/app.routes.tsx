@@ -9,15 +9,16 @@ import Login from '../Pages/Login';
 
 
 const AppRoutes: React.FC = () => (
-    <Layout> 
+    <Layout>
         <Routes>
-            <Route element = { <Home/> }  path="/Home"  />
-            <Route element = { <Sobre/> }  path="/Sobre" />
-            <Route element = { <Servicos/> }  path="/Servicos" />
-            <Route element = { <Contato/> }  path="/Contato" />
-            <Route element = { <Login/> }  path="/Login" />
+                <Route element = { <Home/> }  path="/Home"  />
+                <Route element = { <Sobre/> }  path="/Sobre" />
+                <Route element = { <Servicos/> }  path="/Servicos" />
+                <Route element = { <Contato/> }  path="/Contato" />
+                <Route element = { <Login/> }  path="/Login" />
         </Routes>
     </Layout>
+    
 );
 
 export default AppRoutes;
