@@ -13,14 +13,16 @@ export const Content = styled.div`
     font-size: calc(10px + 2vmin);
     color: white;
 
-    > h2 {
-        color: #b8ffc3;
-        font-size: 1500%;
-        cursor: pointer;
+    > h1 {
+        align-items: right;
+        text-align: right;
         
     }
 
-    > h1 {
-        text-align: left;
+    > h2 {
+        color: #b8ffc3;
+        font-size: 800%;
+        cursor: pointer;
+        
     }
 `;

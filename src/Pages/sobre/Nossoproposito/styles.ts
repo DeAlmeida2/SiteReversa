@@ -17,10 +17,5 @@ export const Content = styled.div`
         color: #b8ffc3;
         font-size: 1500%;
         cursor: pointer;
-        
-    }
-
-    > h1 {
-        text-align: left;
     }
 `;

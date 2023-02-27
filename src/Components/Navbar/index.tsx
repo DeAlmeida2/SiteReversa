@@ -14,7 +14,7 @@ function ColorSchemesExample() {
         <Container>        
           <Navbar.Brand href="/Home">△ Reversa</Navbar.Brand>
           <Nav className="right">
-            <Nav.Link href="/Sobre">Sobre</Nav.Link>
+            <Nav.Link href="/Sobre/Quemsomos">Sobre</Nav.Link>
             <Nav.Link href="/Servicos">Serviços</Nav.Link>
             <Nav.Link href="/Contato">Contato</Nav.Link>
             <Nav.Link href="/Login">Login</Nav.Link>

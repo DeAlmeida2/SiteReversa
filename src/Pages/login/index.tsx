@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             <Container>
                     <Content>
                         <GlobalStyles/>
-                        <h2 > △ Reversa </h2>                                             
+                                                                    
                             <Form>
                             <FormTitle>Entrar</FormTitle>
                                 <Input

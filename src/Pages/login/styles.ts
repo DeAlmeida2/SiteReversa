@@ -31,6 +31,7 @@ export const Form = styled.div`
 export const FormTitle = styled.div`
     text-align: left;
     font-weight: bold;
+    font-size: larger;
     color: black;
     margin-bottom: 40px;
 

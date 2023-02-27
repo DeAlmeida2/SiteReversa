@@ -1,9 +1,9 @@
 import React from "react";
 import GlobalStyles from "../../Styles/GlobalStyles";
-import Navbar from '../../Components/Navbar'
 import Carousel from "../../Components/Carousel";
 import Footer from '../../Components/Footer';
-import CardDeck from "../../Components/CardDeck";
+import About from '../../Components/About';
+
 
 import { Container,
     Content,
@@ -18,6 +18,7 @@ const Sobre: React.FC = () => {
                         <GlobalStyles/>
                         <br></br>
                         <br></br>
+                        <About/>
                         <h2 > △ </h2>                   
                             <h1>Sobre</h1>                        
                             <div>
@@ -33,8 +34,9 @@ const Sobre: React.FC = () => {
                             </a>
                             <br></br>                            
                     <div>
-                        <CardDeck/>
-                    </div>     
+                        
+                    </div>    
+                     
                     <Carousel/>     
                     </Content>
                 <Footer/>
